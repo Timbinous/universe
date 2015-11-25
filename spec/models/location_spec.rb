@@ -7,6 +7,6 @@ describe Location do
   it {should validate_presence_of :y}
   it {should validate_presence_of :z}
   it {should belong_to :locatable}
-  it {should validate_presense_of :locatable}
+  it {should validate_presence_of :locatable}
 
 end
